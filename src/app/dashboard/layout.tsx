@@ -1,5 +1,6 @@
 import { Links } from "../../components/links";
 
+// 嵌套布局，在文件夹（例如app/dashboard/layout.js）中定义的布局适用于特定的路由（例如acme.com/dashboard），并在这些路由处于活动状态时进行渲染。默认情况下，文件层次结构中的布局是嵌套的，这意味着它们通过其children属性包装子布局。
 export default function DashboardLayout({
   children,
 }: {
